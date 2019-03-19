@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/grey_ab" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp">
+
+        <RadioButton
+            android:id="@+id/rb_homepage"
+            style="@style/myRadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/homepage_selector"
+            android:text="@string/homepager_name" />
+
+        <RadioButton
+            android:id="@+id/rb_homemanage"
+            style="@style/myRadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/homemanage_selector"
+            android:text="@string/homemanage_name" />
+
+        <RadioButton
+            android:id="@+id/rb_homecreatetask"
+            style="@style/myRadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/homecreatetask_selector"
+            android:text="@string/homecreatetask_name" />
+
+        <RadioButton
+            android:id="@+id/rb_homepeople"
+            style="@style/myRadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/homepeople_selector"
+            android:text="@string/homepeople_name" />
+
+    </RadioGroup>
+
+</LinearLayout>
