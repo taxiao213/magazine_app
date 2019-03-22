@@ -94,4 +94,11 @@
         <attr name="srlEnableTwoLevel" format="boolean"/>
         <attr name="srlEnablePullToCloseTwoLevel" format="boolean"/>
     </declare-styleable>
+
+
+    <declare-styleable name="XSMyDownView">
+        <attr name="xs_image" format="reference|integer" />
+        <attr name="xs_text_name" format="string" />
+    </declare-styleable>
+
 </resources>

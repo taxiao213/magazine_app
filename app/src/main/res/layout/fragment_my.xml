@@ -1,7 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:src="@drawable/homelike_normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.jz.hui.ui.view.XSMyDownView
+            android:id="@+id/xs_my_collect"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            app:xs_image="@drawable/xs_my_collect"
+            app:xs_text_name="我的收藏" />
+
+        <com.jz.hui.ui.view.XSMyDownView
+            android:id="@+id/xs_my_issue"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            app:xs_image="@drawable/xs_my_issue"
+            app:xs_text_name="常见问题" />
+
+        <com.jz.hui.ui.view.XSMyDownView
+            android:id="@+id/xs_my_service"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            app:xs_image="@drawable/xs_my_service"
+            app:xs_text_name="客服中心" />
+
+        <com.jz.hui.ui.view.XSMyDownView
+            android:id="@+id/mine_setting_center"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            app:xs_image="@drawable/xs_my_set"
+            app:xs_text_name="设置中心" />
+
+        <com.jz.hui.ui.view.XSMyDownView
+            android:id="@+id/xs_my_opinion"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            app:xs_image="@drawable/xs_my_opinion"
+            app:xs_text_name="意见反馈" />
+
+        <com.jz.hui.ui.view.XSMyDownView
+            android:id="@+id/xs_my_share"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginBottom="15dp"
+            app:xs_image="@drawable/xs_my_share"
+            app:xs_text_name="分享给朋友" />
+    </LinearLayout>
 </LinearLayout>

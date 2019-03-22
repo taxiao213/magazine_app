@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="no_action_bar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <!--没有标题栏-->
+        <item name="android:windowNoTitle">true</item>
+        <!--窗口界面颜色-->
+        <item name="android:windowBackground">@color/grey_ee</item>
+    </style>
+</resources>
